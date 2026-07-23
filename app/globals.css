@@ -52,8 +52,9 @@ nav a{opacity:.9}
 .serviceGrid p{margin:0;color:#3f6663;line-height:1.6;font-size:14px}
 
 .about{display:grid;grid-template-columns:.9fr 1.1fr;min-height:700px}
-.aboutVisual{position:relative;background:var(--soft);min-height:560px}
-.visualBlock{position:absolute;inset:0;background:linear-gradient(135deg,var(--accent) 0%,var(--soft) 100%)}
+.aboutVisual{position:relative;background:var(--soft);min-height:560px;overflow:hidden}
+.aboutVisual img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.visualBlock{position:absolute;inset:0;background:linear-gradient(0deg,var(--ink) 0%,transparent 55%);opacity:.5}
 .stamp{position:absolute;right:-60px;bottom:60px;width:140px;height:140px;background:var(--accent2);color:var(--ink);border-radius:50%;display:grid;place-items:center;font-family:var(--font);font-weight:700;font-size:30px;z-index:2}
 .stamp small{display:block;font:8px 'DM Sans';letter-spacing:.14em;margin-top:-30px;font-weight:600}
 .aboutCopy{padding:11vw 8vw;display:flex;flex-direction:column;justify-content:center}
